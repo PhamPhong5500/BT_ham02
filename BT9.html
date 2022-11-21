@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let arr = ["táo", "cam", "quýt", "xoài", "lê"] ;
+  let n = prompt("nhập kí tự !") ;
+  let count = 0 ;
+  function text(arr) {
+      for(let i = 0; i< arr.length; i++)
+    if (n == arr[i]) {
+       count++;
+     }
+      if (count != 0) alert("số lần: "+count);
+      else alert("-1");
+  }
+  text(arr)
+</script>
+</body>
+</html>
